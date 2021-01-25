@@ -1,0 +1,23 @@
+{
+  "name": "paradisebot2",
+  "version": "0.2.0",
+  "description": "bot by dutch",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "canvas": "^2.6.1",
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "0.0.1-security",
+    "images-scraper": "^6.0.0",
+    "yt-search": "^2.5.2",
+    "ytdl-core": "^4.4.5"
+  },
+  "devDependencies": {}
+}
