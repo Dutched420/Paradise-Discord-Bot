@@ -6,6 +6,7 @@ module.exports = {
     aliases: ['serverinfo', 'server-info', 'botinfo', 'bot-info'],
     description: "Gives you information about the server/bot",
     callback: ({ message, args, client }) => {
+        
         const embed = new DiscordJS.MessageEmbed()
         .setTitle('🌴 Cannoning Paradise 🌴')
         .setURL(process.env.webSite)
