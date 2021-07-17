@@ -1,3 +1,6 @@
+/*
+Needs to get updated
+*/
 const api = require('imageapi.js')
 module.exports = {
     minArgs: 0,
@@ -11,8 +14,8 @@ module.exports = {
             "monkytime",
             "monkeymemes"
             // need to find more monkey related subreddits
-        ];
-
+        ];      
+        
         let subreddit = subreddits[Math.floor(Math.random()*(subreddits.length))];
         let img = await api(subreddit)
 
