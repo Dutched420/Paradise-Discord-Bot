@@ -1,7 +1,7 @@
 const DiscordJS = require('discord.js');
 module.exports = {
     minArgs: 0,
-    maxArgs: 10,
+    maxArgs: 2,
     description: "Bans a user",
     requiredPermissions: ['ADMINISTRATOR'],
     async callback ({ message, args, client }) {
