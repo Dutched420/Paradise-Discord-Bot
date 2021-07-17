@@ -2,7 +2,7 @@ const DiscordJS = require('discord.js');
 module.exports = {
     minArgs: 0,
     maxArgs: -1,
-    description: "create gfx",
+    description: "Manage user's nickname",
     aliases: ['nick'],
     requiredPermissions: ['ADMINISTRATOR'],
     async callback ({ message, args, client }) {
